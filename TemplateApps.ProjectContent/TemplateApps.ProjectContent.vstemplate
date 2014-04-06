@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Template Apps Project Content</Name>
+    <Description>This builds the content files to add to a project.</Description>
+    <Icon>TemplateApps.ProjectContent.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>fced5e3e-48db-49f3-836b-92d98e97d82d</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TemplateApps.ProjectContent</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true">CustomDictionary.xml</ProjectItem>
+    <ProjectItem ReplaceParameters="true">TemplateApps.Template.ruleset</ProjectItem>
+    <ProjectItem ReplaceParameters="true">TemplateApps.Template.snk</ProjectItem>
+    <ProjectItem ReplaceParameters="true">SharpRepository.Ef5Repository.dll</ProjectItem>
+    <ProjectItem ReplaceParameters="true">SharpRepository.Ioc.Windsor.dll</ProjectItem>
+    <ProjectItem ReplaceParameters="true">SharpRepository.Repository.dll</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

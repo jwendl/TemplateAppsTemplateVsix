@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Template Apps Solution Template</Name>
+    <Description>This is to build out the default solution template for Template Apps projects.</Description>
+    <Icon>TemplateApps.ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>4348bdc9-cab4-475a-badd-fa9fffa4fad2</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TemplateAppsTest</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <SolutionFolder Name="Solution Items">
+      </SolutionFolder>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Common">
+        TemplateApps.Template.Common\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Business">
+        TemplateApps.Template.Business\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>TemplateApps.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2c5a3ac4da90199a</Assembly>
+    <FullClassName>TemplateApps.Wizard.RootWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

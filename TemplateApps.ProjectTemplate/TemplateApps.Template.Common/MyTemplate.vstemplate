@@ -1,0 +1,37 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>TemplateApps.Template.Common</Name>
+    <Description>Common code for Template Apps.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TemplateApps.Template.Common</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="TemplateApps.Template.Common.csproj" File="TemplateApps.Template.Common.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Arg.cs">Arg.cs</ProjectItem>
+      <Folder Name="Constants" TargetFolderName="Constants">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Roles.cs">Roles.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Extensions" TargetFolderName="Extensions">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DateTimeExtensions.cs">DateTimeExtensions.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IListExtensions.cs">IListExtensions.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="StringExtensions.cs">StringExtensions.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GlobalSuppressions.cs">GlobalSuppressions.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>TemplateApps.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2c5a3ac4da90199a</Assembly>
+    <FullClassName>TemplateApps.Wizard.ChildWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
