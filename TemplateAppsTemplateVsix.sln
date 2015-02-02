@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateAppsTemplateVsix", "TemplateAppsTemplateVsix\TemplateAppsTemplateVsix.csproj", "{2BABA32A-D92F-4F19-8A13-8066C8DD5EC4}"
 EndProject
@@ -10,6 +10,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateApps.ProjectTemplate", "TemplateApps.ProjectTemplate\TemplateApps.ProjectTemplate.csproj", "{61EDF4FA-986B-4923-9138-CDB2B931AA67}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateApps.ProjectContent", "TemplateApps.ProjectContent\TemplateApps.ProjectContent.csproj", "{9ED7D6A6-CFE3-4813-894B-2AE00BDE2398}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E027F58-8489-4E44-85FF-01D075FC2CF3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
