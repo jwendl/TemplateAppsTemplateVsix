@@ -94,8 +94,8 @@
     <Content Include="TemplateApps.Template.Business\MyTemplate.vstemplate" />
     <None Include="TemplateApps.Template.Business\__TemplateIcon.ico" />
     <None Include="CustomDictionary.xml" />
-    <None Include="TemplateApps.Template.Common\EcolabApps.Template.Common.csproj" />
     <Content Include="TemplateApps.Template.Common\MyTemplate.vstemplate" />
+    <Content Include="TemplateApps.Template.Common\TemplateApps.Template.Common.csproj" />
     <Content Include="TemplateApps.Template.Common\__TemplateIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
